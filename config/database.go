@@ -1,7 +1,7 @@
 package config
 
 import (
-	"engineer-jobhunting-api//domain/model"
+	"engineer-jobhunting-api/domain/model"
 	"gorm.io/gorm"
 )
 
