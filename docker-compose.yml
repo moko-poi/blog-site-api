@@ -5,7 +5,7 @@ services:
     build: .
     ports:
       - 8080:8080
-    container_name: job_app
+    container_name: sample_app
     volumes:
       - ./:/go
     tty: true
@@ -15,10 +15,10 @@ services:
 
   mysql:
     image: mysql:5.7
-    container_name: job_db
+    container_name: sample_db
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     environment:
-      MYSQL_DATABASE: db
+      MYSQL_DATABASE: sample
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
