@@ -3,7 +3,7 @@ package infra
 import (
 	"engineer-jobhunting-api/domain/model"
 	"engineer-jobhunting-api/domain/repository"
-	"gorm.io/gorm"
+	"github.com/jinzhu/gorm"
 )
 
 // BlogRepository : blog repository の 構造体

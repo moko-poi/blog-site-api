@@ -5,6 +5,7 @@ import (
 	"engineer-jobhunting-api/infra"
 	"engineer-jobhunting-api/interface/handler"
 	"engineer-jobhunting-api/usecase"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/labstack/echo"
 )
 
